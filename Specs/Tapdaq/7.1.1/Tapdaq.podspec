@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Tapdaq"
-  s.version      = "7.1.0"
+  s.version      = "7.1.1"
   s.summary      = "Tapdaq SDK"
   s.description  = <<-DESC
   The official Tapdaq iOS SDK
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
 
   s.subspec "HyprMx" do |hyprmx|
     hyprmx.dependency 'Tapdaq/HyprMxAdapter'
-    hyprmx.dependency "TapdaqHyprMXSDK", "7.1.0"
+    hyprmx.dependency "TapdaqHyprMXSDK", "7.1.1"
   end
   
   s.subspec "HyprMxAdapter" do |adapter|
