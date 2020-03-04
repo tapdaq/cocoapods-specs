@@ -109,9 +109,9 @@ Pod::Spec.new do |s|
 
   s.subspec "Mintegral" do |mintegral|
     mintegral.dependency 'Tapdaq/MintegralAdapter'
-    mintegral.dependency "MintegralAdSDK", "5.8.8"
-    mintegral.dependency "MintegralAdSDK/BidRewardVideoAd"
-    mintegral.dependency "MintegralAdSDK/BidInterstitialVideoAd"
+    mintegral.dependency "MintegralAdSDK", "5.8.8.0"
+    mintegral.dependency "MintegralAdSDK/BidRewardVideoAd", "5.8.8.0"
+    mintegral.dependency "MintegralAdSDK/BidInterstitialVideoAd", "5.8.8.0"
   end
   
   s.subspec "MintegralAdapter" do |adapter|
