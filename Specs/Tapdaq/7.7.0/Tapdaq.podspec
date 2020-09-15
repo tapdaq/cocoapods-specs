@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
     sdk.frameworks = "Foundation", "UIKit", "QuartzCore", "AdSupport", "Security", "SystemConfiguration", 
     "MobileCoreServices", "StoreKit", "CoreTelephony", "AVFoundation"
     sdk.vendored_frameworks = 'Tapdaq.framework'
-    sdk.xcconfig = { "OTHERLD_FLAGS" => "-ObjC" }
+    sdk.xcconfig = { "OTHER_LDFLAGS" => "-ObjC" }
     sdk.requires_arc = true
   end
 
