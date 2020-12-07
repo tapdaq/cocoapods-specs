@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://twitter.com/tapdaq"
 
   s.platform     = :ios, "9.0"
-  s.source       = { :http => "http://ios-sdk.tapdaq.com/7.8.1/cocoapods_frameworks.zip" }
+  s.source       = { :http => "https://ios-sdk.tapdaq.com/7.8.1/cocoapods_frameworks.zip" }
 
   s.default_subspec = "SDK"
 
